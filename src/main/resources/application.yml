@@ -1,0 +1,31 @@
+#server:
+#  port: 8283
+#
+#spring:
+#  application:
+#    name: SMART CONTACT MANAGER
+#
+#
+#
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/smartcontact1
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#      dialect: org.hibernate.dialect.MySQL8Dialect
+#
+#  servlet:
+#    multipart:
+#      max-file-size: 10MB
+#      max-request-size: 10MB
+#
+#
+#
