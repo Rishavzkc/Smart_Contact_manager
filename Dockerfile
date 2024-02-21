@@ -32,7 +32,7 @@ ENV MYSQL_ROOT_PASSWORD=root
 EXPOSE 3306
 
 # Mount a volume for persistent storage
-# VOLUME /var/lib/mysql
+VOLUME /var/lib/mysql
 
 # Stage 4: Final image for the Spring Boot application
 FROM openjdk:11-jdk-slim
